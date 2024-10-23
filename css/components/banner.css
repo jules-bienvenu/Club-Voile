@@ -1,0 +1,36 @@
+.banner {
+  background-image: linear-gradient(-115deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.1) 50%), url(../../images/devenezpartenaire.png);
+  color: white;
+  padding: 170px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #3268a8;
+  mix-blend-mode: color;
+}
+
+.banner img {
+  filter: grayscale(100%) sepia(20%) contrast(150%) brightness(80%) saturate(120%);
+  width: 100%;
+  height: auto;
+}
+
+.banner h1 {
+  font-size: 110px;
+  font-weight: bold;
+  font-family: 'Raleway Sans;', sans-serif;
+  margin-bottom: 30px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
